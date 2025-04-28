@@ -8,12 +8,14 @@ O objetivo é testar suas habilidades em desenvolvimento web, banco de dados, or
 
 ## 🟦 Estrutura do Desafio
 
-O desafio será dividido em duas partes:
+O desafio ocorrerá das **9h45 às 11h30** (total de 1h 45min) e será dividido em quatro partes:
 
-| Parte    | Descrição                                          | Tempo estimado |
-|----------|----------------------------------------------------|----------------|
-| Parte 1  | Desenvolvimento de um CRUD completo de alunos      | 1h30           |
-| Parte 2  | Consultas SQL avançadas e evolução do banco         | 30 min         |
+| Parte    | Descrição                                                            | Tempo estimado |
+|----------|----------------------------------------------------------------------|----------------|
+| Parte 1  | Organização e Setup do Ambiente                                      | 15 min         |
+| Parte 2  | Desenvolvimento do CRUD completo de alunos (API e Interface)           | 60 min         |
+| Parte 3  | Consultas SQL e Evolução do Banco (BD)                               | 20 min         |
+| Parte 4  | Apresentação Final                                                   | 5 min          |
 
 ---
 
@@ -23,18 +25,6 @@ O desafio será dividido em duas partes:
 - Postman instalado
 - Acesso ao banco de dados MySQL via phpMyAdmin
 - Git instalado para versionamento
-
----
-
-# 📋 Instruções Gerais
-
-- Você terá **15 minutos iniciais** para:
-  - Configurar seu ambiente de trabalho (abrir VSCode, phpMyAdmin, GitHub).
-  - Criar seu repositório no GitHub e clonar na máquina local.
-  - Conectar-se ao banco via phpMyAdmin.
-
-- **Durante esses 15 minutos é proibido começar a codificar.**
-- O desafio será oficialmente iniciado após esse tempo.
 
 ---
 
@@ -104,9 +94,45 @@ O desafio será dividido em duas partes:
 
 ---
 
-# 🟦 Parte 2 — Consultas SQL e Evolução do Banco
+# 🟦 Parte 2 — Desenvolvimento do CRUD de Alunos
 
-Após a conclusão da Parte 1:
+## 🎯 O que você deve fazer:
+
+- Criar um banco de dados no MySQL chamado: `desafio_ceap`.
+- Criar manualmente uma tabela chamada `alunos`, respeitando a seguinte estrutura:
+
+| Campo           | Tipo                   | Restrições                       |
+|-----------------|-------------------------|----------------------------------|
+| id              | Inteiro                 | Chave Primária, Auto incremento |
+| nome            | Texto (até 100 caracteres) | Obrigatório |
+| email           | Texto (até 100 caracteres) | Obrigatório |
+| curso           | Texto (até 100 caracteres) | Obrigatório |
+| data_nascimento | Data                    | Opcional                        |
+| ativo           | Booleano                | Valor padrão: TRUE              |
+
+> ❗ **Importante:**  
+> O candidato deverá interpretar esta estrutura e criar a tabela manualmente no phpMyAdmin.  
+
+## 📌 Desenvolvimento
+
+- Criar uma **API RESTful** com os seguintes endpoints:
+  - `POST /alunos` – Criar aluno
+  - `GET /alunos` – Listar todos os alunos
+  - `PUT /alunos/{id}` – Atualizar aluno
+  - `DELETE /alunos/{id}` – Deletar aluno
+> A API deve aceitar e retornar dados no formato JSON. Utilize códigos de status HTTP apropriados (ex: 201 para criação, 200 para sucesso, 404 para não encontrado).
+
+- Criar uma interface web simples para:
+  - Cadastrar novos alunos
+  - Listar todos os alunos
+  - Atualizar e excluir alunos
+> Não é necessário utilizar nenhum framework de front-end específico; HTML, CSS e JavaScript puros são suficientes.
+
+---
+
+# 🟦 Parte 3 — Consultas SQL e Evolução do Banco (BD)
+
+Após a conclusão da Parte 2:
 
 - Você deverá executar o script [`base-fase2.sql`](./base-fase2.sql) disponível neste repositório.
 
@@ -167,9 +193,9 @@ Exemplo de estrutura esperada no repositório:
 
 ---
 
-# 🧠 Apresentação Final
+# 🧠 Apresentação Final (Parte 4)
 
-- Ao término do tempo, você terá **3 a 5 minutos** para apresentar sua solução.
+- Ao término do tempo (previsto para 11h20), você terá **5 minutos** para apresentar sua solução.
 - A apresentação deve abordar:
   - Organização do projeto
   - Funcionamento básico da API e da interface
