@@ -28,12 +28,12 @@ O desafio será dividido em duas partes:
 
 # 📋 Instruções Gerais
 
-- Você terá **10 minutos iniciais** para:
+- Você terá **15 minutos iniciais** para:
   - Configurar seu ambiente de trabalho (abrir VSCode, phpMyAdmin, GitHub).
   - Criar seu repositório no GitHub e clonar na máquina local.
   - Conectar-se ao banco via phpMyAdmin.
 
-- **Durante esses 10 minutos é proibido começar a codificar.**
+- **Durante esses 15 minutos é proibido começar a codificar.**
 - O desafio será oficialmente iniciado após esse tempo.
 
 ---
@@ -56,7 +56,6 @@ O desafio será dividido em duas partes:
 
 > ❗ **Importante:**  
 > O candidato deverá interpretar esta estrutura e criar a tabela manualmente no phpMyAdmin.  
-> Não será fornecido um script pronto de criação.
 
 ## 📌 Desenvolvimento
 
@@ -75,10 +74,10 @@ O desafio será dividido em duas partes:
 
 # 📋 Banco de Dados — Informações de Conexão
 
-- **Host**: `IP_DO_SERVIDOR`
+- **Host**: `10.0.0.17`
 - **Porta**: `3306`
-- **Usuário**: `[fornecido individualmente]`
-- **Senha**: `[fornecido individualmente]`
+- **Usuário**: `nome`
+- **Senha**: `nome`
 - **Banco**: `desafio_ceap`
 
 > A configuração da conexão no seu sistema é de responsabilidade do candidato conforme a linguagem ou framework escolhido.
@@ -115,7 +114,27 @@ Esse script irá:
 
 ---
 
-# 🚀 Entrega do Desafio
+# 📋 Entrega da Parte 2 — Consultas SQL
+
+- Crie uma pasta chamada `fase2/` no seu repositório.
+- Dentro dela, crie um arquivo chamado `consultas.sql`.
+- Insira todas as consultas solicitadas neste arquivo, separadas e comentadas.
+
+
+Exemplo de estrutura esperada no repositório:
+
+```
+/
+├── README.md
+├── base-fase2.sql
+├── src/                  # Código da API e Interface
+└── fase2/
+    └── consultas.sql     # Suas consultas SQL
+```
+
+---
+
+# 🚀 Entrega Final
 
 - Todo o código deverá ser versionado no repositório GitHub individual.
 - Faça commits frequentes e claros durante o desenvolvimento.
