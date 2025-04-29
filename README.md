@@ -122,7 +122,7 @@ Esse script irá:
    - Data da matrícula mais recente (se existir)
    > (Resultado esperado deve incluir colunas como `aluno_nome`, `curso_nome`, `curso_tipo`, `data_matricula_recente`).
 
-2. Listar todos os alunos que **não possuem matrícula ativa** (`status != 'Ativa'`)
+2. Listar todos os alunos que **não possuem matrícula ativa**
    > (Resultado esperado deve incluir colunas como `aluno_nome`, `aluno_email`, etc.).
 
 3. Listar todos os **cursos que não possuem alunos ativos matriculados**
