@@ -46,6 +46,7 @@ O desafio ocorrerá das **9h45 às 11h30** (total de 1h 45min) e será dividido 
 
 > ❗ **Importante:**
 > O candidato deverá interpretar esta estrutura e criar a tabela **manualmente** no phpMyAdmin.
+> Acesso via navegador pela URL "localhost/phpmyadmin"
 
 ## 📌 Desenvolvimento (CRUD)
 
