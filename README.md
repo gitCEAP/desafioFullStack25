@@ -151,12 +151,8 @@ Exemplo de estrutura esperada no repositório:
 /
 ├── README.md
 ├── base-fase2.sql      # Script SQL para a Parte 2
-├── src/                  # Código da API e Interface (exemplo)
-├── public/               # Arquivos da Interface Web (exemplo)
 ├── fase2/
 │   └── consultas.sql     # Suas consultas SQL da Parte 2
-├── .env.example        # Exemplo de variáveis de ambiente
-├── package.json          # Exemplo se usar Node.js
 └── ...                   # Outros arquivos do seu projeto
 ```
 
