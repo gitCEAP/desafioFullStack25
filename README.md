@@ -128,7 +128,7 @@ Esse script irá:
 3. Listar todos os **cursos que não possuem alunos ativos matriculados**
    > (Resultado esperado deve incluir colunas como `curso_nome`, `curso_tipo`).
 
-4. Atualizar o status da matrícula para **"Concluída"** para alunos cuja matrícula tenha mais de 6 meses.
+4. Atualizar o status da matrícula para **"Concluída"** para matrículas iniciadas em qualquer período do ano de **2023**.
    > (Esta é uma operação de `UPDATE`, não retorna linhas diretamente, mas afeta a tabela `matriculas`).
 
 5. Listar nome, e-mail e **idade atual** dos alunos, calculada a partir de `data_nascimento`.
