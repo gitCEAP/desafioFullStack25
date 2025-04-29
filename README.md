@@ -8,13 +8,14 @@ O objetivo é testar suas habilidades em desenvolvimento web, banco de dados, or
 
 ## 🟦 Estrutura do Desafio
 
-O desafio ocorrerá das **9h45 às 11h30** (total de 1h 45min) e será dividido em três partes principais, seguidas da apresentação:
+O desafio ocorrerá das **9h45 às 11h30** (total de 1h 45min) e será dividido em quatro partes:
 
-| Parte    | Descrição                                                  | Tempo estimado |
-|----------|------------------------------------------------------------|----------------|
-| Parte 1  | Setup do Ambiente e Desenvolvimento do CRUD de Alunos      | 75 min         |
-| Parte 2  | Consultas SQL e Evolução do Banco (BD)                     | 20 min         |
-| Parte 3  | Apresentação Final                                         | 5 min          |
+| Parte    | Descrição                                                            | Tempo estimado |
+|----------|----------------------------------------------------------------------|----------------|
+| Parte 1  | Organização e Setup do Ambiente                                      | 15 min         |
+| Parte 2  | Desenvolvimento do CRUD completo de alunos (API e Interface)           | 60 min         |
+| Parte 3  | Consultas SQL e Evolução do Banco (BD)                               | 20 min         |
+| Parte 4  | Apresentação Final                                                   | 5 min          |
 
 ---
 
